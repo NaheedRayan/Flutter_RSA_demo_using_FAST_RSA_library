@@ -119,9 +119,6 @@ class _HomeState extends State<Home> {
                     de_msg ;
                   });
 
-                  // ScaffoldMessenger.of(context).showSnackBar(SnackBar(
-                  //   content: Text("Sending Message"),
-                  // ));
 
                   },
                   child: Text('Press to encrypt and decrypt'),
@@ -182,24 +179,6 @@ class _HomeState extends State<Home> {
           print(key.privateKey);
 
           print("-------------------YAY-------------------------");
-
-
-
-
-          // print("The message is = $message") ;
-          // en_msg = await RSA.encryptPKCS1v15(message, key.publicKey);
-          //
-          // print("The encrypted message is = $en_msg") ;
-          //
-          // print("-------------------Ooo-------------------------");
-          //
-          // de_msg = await RSA.decryptPKCS1v15(en_msg, key.privateKey);
-          // print("The decrypted message is = $de_msg") ;
-          //
-          // setState((){
-          //   en_msg ;
-          //   de_msg ;
-          // });
 
         },
         child: Text("Key"),
